@@ -1,23 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - main function
  *
- * Return: Always 0 (success)
+ * Return: Always 0
  */
 
 int main(void)
-    {
-    int a;
+{
+    int i;
 
-    for (a = 0; a < 10; a++)
+    for (i = 0 ; i < 10 ; i++)
     {
-    	putchar(a + '0');
-    	if (a < 9)
-    	{
-    	        putchar(',');
-    		putchar(' ');
-    	}
+	    if (i == 9)
+		    putchar(i + '0');
+	    else
+		    putchar(i + '0');
+	            putchar (',');
+		    putchar (' ');
     }
     putchar('\n');
-    return (0);
-    }
+    return (0)
+}
