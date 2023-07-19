@@ -6,6 +6,7 @@
  * followed by new line
  * @n: print from this number
  */
+
 void print_to_98(int n)
 {
 	int i, j;
@@ -17,7 +18,7 @@ void print_to_98(int n)
 			if (i != 98)
 				printf("%d, ", i);
 			else if (i == 98)
-				printf("%d\n" , i);
+				printf("%d\n", i);
 		}
 	} else if (n >= 98)
 	{
