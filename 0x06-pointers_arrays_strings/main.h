@@ -15,4 +15,5 @@ char *leet(char *n);
 char *rot13(char *s);
 int _putchar(char c);
 char *_strncat(char *dest, char *src, int n);
+int main(void);
 #endif
